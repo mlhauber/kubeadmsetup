@@ -4,7 +4,7 @@
 set -euxo pipefail
 
 # CHANGE THE MASTER IP
-MASTER_IP="10.0.0.1"
+MASTER_IP="SET-MASTER-IP"
 NODENAME=$(hostname -s)
 POD_CIDR="192.168.0.0/16"
 
