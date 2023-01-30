@@ -20,7 +20,7 @@ sudo chown "$(id -u)":"$(id -g)" "$HOME"/.kube/config
 
 kubectl cluster-info
 
-echo 'To make kubectl available on other services:'
+echo 'To make kubectl available as Client on other VMs:'
 echo 'curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"'
 echo 'sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl'
 echo 'on master: cat $HOME/.kube/config ==> copy content'
