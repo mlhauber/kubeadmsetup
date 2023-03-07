@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo Setting up the cluster...
 echo Setting IPs to env variables:
 sed -i "s/<MASTER IP>/$MASTER_IP/" ~/kubernetes-training/kubeadm/kubeadm-config.yaml
